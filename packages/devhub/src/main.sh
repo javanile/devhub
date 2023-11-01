@@ -1,7 +1,7 @@
 
-module commands
+extern package getoptions
 
-legacy getoptions
+module commands
 
 VERSION="DevHub 0.1.1 (2023-10-24)"
 
