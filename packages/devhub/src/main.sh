@@ -1,7 +1,8 @@
 
 extern package getoptions
-
+echo "AAAA"
 module commands
+echo "AAAA"
 
 VERSION="DevHub 0.1.1 (2023-10-24)"
 

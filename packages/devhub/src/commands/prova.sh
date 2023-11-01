@@ -1,4 +1,6 @@
 
+echo "aaaa"
+
 devhub_start() {
 
 
