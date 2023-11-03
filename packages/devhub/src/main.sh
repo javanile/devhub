@@ -1,8 +1,7 @@
 
 extern package getoptions
-echo "AAAA"
+
 module commands
-echo "AAAA"
 
 VERSION="DevHub 0.1.1 (2023-10-24)"
 
@@ -36,9 +35,7 @@ args_error() {
 }
 
 main() {
-  if [ $# -eq 0 ]; then
-    eval "set -- --help"
-  fi
+  [ $# -eq 0 ] && set -- --help
 
   eval "$(getoptions parser_definition parse "$0") exit 1"
   parse "$@"
